@@ -1,0 +1,47 @@
+# Build-related
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.app
+*.ipa
+*.iobj
+*.ipdb
+*.rsp
+
+# Visual Studio-specific
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# macOS / Windows OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.tlog
+*.nlog
+
+# Environment files (secrets)
+.env
+.env.local
+appsettings.Production.json
+appsettings.Development.json
+
+
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
